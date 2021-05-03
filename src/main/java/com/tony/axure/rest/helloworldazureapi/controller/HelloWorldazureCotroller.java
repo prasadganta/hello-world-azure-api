@@ -22,7 +22,7 @@ public class HelloWorldazureCotroller {
 	}
 	
 	@GetMapping(path="/hello-world/{name}/{age}")
-	public String helloWorld(@PathVariable String name,int age) {
+	public String helloWorld(@PathVariable String name,String  age) {
 		 
 		return "Hello World Welcome "+name+" !!!... and your age is "+age;
 	}
